@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+}
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid white;*/
+
+}
+
+.logo {
+	/*border: 1px solid white;*/
+	width: 17%;
+	float: left;
+
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	/*border: 1px solid white;*/
+	width: 70%;
+	float: right;
+	margin-top: 30px;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px;
+	display: inline-block;
+	transition: .3s;
+}
+
+.menu ul li a:hover{
+	color: #0078BD;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/labtop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+}
+.banner_content{
+	width: 50%
+	border: 1px solid red;
+	margin-top: 200px;
+	margin-bottom: 80px;
+}
+.banner_content h1{
+	font-family: sans-serif; 
+	font-weight:400px;
+	font-size:35px;
+	color: white;
+	text-transform: capitalize;
+	margin: 0;
+}
+.banner_content h2{
+	font-family: sans-serif;
+	font-size:38px;
+	color: #0078BD;
+	text-transform: capitalize;
+	margin: 0;
+}
+}
+.banner_content p{
+	font-family: sans-serif; 
+	color: white;
+	margin: 0;
+	line-height: 30px;
+}
+.banner_content button{
+	width: 220px;
+	height: 60px;
+	margin-top: 20px;
+	font-family: sans-serif; 
+	font-size: 22px;
+	color: #5A5A5A;
+	text-transform: uppercase;
+	background-color: white;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: .3s;
+}
+.banner_content button:hover{
+	color:#0078BD;
+}
+.banner_content button:focus{
+	outline: 0;
+}
+/*banner end*/
